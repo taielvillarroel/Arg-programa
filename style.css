@@ -232,12 +232,12 @@ a{
     margin-bottom: 10px;
 }
 
-.estrellas{
+.arrows{
     position: relative;
     bottom: 10px;
 }
 
-.estrellas img{
+.arrows img{
     width: 25px;   
 }
 
@@ -258,7 +258,7 @@ a{
     align-items: center;
 }
 
-.flechas img{
+.arrows img{
     width: 50px;
     font-weight: 200;
     margin-left: 20px;
