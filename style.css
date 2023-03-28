@@ -1,0 +1,271 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: grey;
+}
+
+h1,h3{
+    cursor: default;
+}
+
+a{
+    font-family:sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.login{
+    background-color: white;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto{  
+    width: 50%;
+    height: 100vh;
+    background-image: url(imagen.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.welcome{
+    padding-bottom: 5px;
+    font-size: 30px;
+    color: black;
+}
+
+.lore{
+    margin-bottom: 20px;
+    font-weight: 300;
+    color: rgb(173, 169, 169);
+    
+}
+
+.mail{
+    padding-top: 10px;
+}
+
+.mail label{
+    color: rgb(100, 99, 99);
+    font-size: 14px;
+}
+
+.mail input{
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 310px;
+    height: 40px;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    box-shadow: 0px 0.3px rgb(207, 203, 203);
+    border-color: rgb(207, 203, 203);
+    
+} 
+
+
+::placeholder{
+    
+    padding-left: 10px;
+    margin-left: 20px;
+    padding: 0px;
+    color: rgb(104, 104, 104);
+}
+
+.password{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.password label{
+    color: rgb(100, 99, 99);
+    font-size: 12px;
+    margin-left: 5px;
+    
+}
+
+.password a{
+    color: black;
+    font-size: 12px;
+
+}
+
+.password input{
+    appearance: none;
+    cursor: pointer;
+    background-color: #fff;
+    
+    width: 15px;
+    height: 15px;
+    border-radius: 4px;
+    border: 1px solid rgb(207, 203, 203);
+
+}
+
+.password input:checked{
+    background-color: rgb(59, 85, 202);
+}
+
+.recordar{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.botones a{
+    margin-bottom: 15px;
+}
+
+.botones button{
+    
+    cursor: pointer;
+    width: 310px;
+    height: 37px;
+    
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    box-shadow: 0px 0.3px rgb(207, 203, 203);
+    
+    font-weight: 500;
+    
+}
+
+.register{
+    background-color: rgb(17,23,37);
+    color: rgb(246,251,255);
+    border-color: rgb(246,251,255);
+    border-style: solid;
+}
+
+.google{
+    position: relative;
+    z-index: 3;
+    background-color: #fff;
+    color: rgb(17,23,37);
+    border-color: rgb(207, 203, 203);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotoGoogle{
+    width: 25px;
+    margin-right: 10px;
+}
+
+.cuenta{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuenta label, a{
+    font-size: 12px;
+    padding-right: 5px;
+    
+}
+
+
+
+.foto {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+.Cuadro{
+    background:rgba(0, 0, 0, 0);
+    backdrop-filter: blur(10px); 
+    margin: 50px;
+    padding: 20px;
+    height: 260px;
+    border-color: #ffffff56;
+    border-width: 1px;
+    border-style: solid;
+}
+.Cuadro h1,h3{
+    color: #fff;
+}
+
+.Cuadro h1{
+    font-size: 23px;
+    margin-right: 60px;
+}
+
+.descripcion{
+    display: flex;
+    justify-content: baseline;
+    margin-bottom: 20px;
+}
+
+.puntuacion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.estrellas{
+    position: relative;
+    bottom: 10px;
+}
+
+.estrellas img{
+    width: 25px;   
+}
+
+
+
+.web{
+    font-weight: 200;
+}
+
+.catalogo{
+    font-weight: 500; 
+    margin-bottom: 5px;
+}
+
+.pie{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flechas img{
+    width: 50px;
+    font-weight: 200;
+    margin-left: 20px;
+    padding: 10px;
+    cursor: pointer;
+    border-style: solid;
+    border-radius: 50px;
+    border-width: 1px;
+
+}
